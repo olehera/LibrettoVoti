@@ -38,7 +38,5 @@ public class Voto {
 		this.data = data;
 	}
 	
-	
-	
 
 }

@@ -18,8 +18,8 @@ public class Voto {
 		return punti;
 	}
 
-	public void setPunti(int voto) {
-		this.punti = voto;
+	public void setPunti(int punti) {
+		this.punti = punti;
 	}
 
 	public String getCorso() {
@@ -40,7 +40,7 @@ public class Voto {
 
 	@Override
 	public String toString() {
-		return "Voto [voto=" + punti + ", corso=" + corso + ", data=" + data + "]";
+		return "Voto [punti=" + punti + ", corso=" + corso + ", data=" + data + "]";
 	}
 
 }

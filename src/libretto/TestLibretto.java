@@ -16,6 +16,13 @@ public class TestLibretto {
 		
 		List<Voto> venticinque = l.cercaVoti(25);
 		System.out.println(venticinque);
+		
+		Voto a1 = l.cercaEsame("Analisi I");
+		Voto a2 = l.cercaEsame("Economia");
+		Voto a3 = l.cercaEsame("Marketing");
+		System.out.println(a1);
+		System.out.println(a2);
+		System.out.println(a3);
 	}
 
 }
